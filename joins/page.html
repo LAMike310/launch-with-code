@@ -1,0 +1,63 @@
+<div class="main" id="main">
+  <script type="text/javascript" src="//use.typekit.net/boo1dwp.js"></script>
+  <script type="text/javascript">
+    try {
+      Typekit.load();
+    } catch (e) {}
+  </script>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(window).load(function() {
+      $("#signupForm").submit(function() {
+        //Check the required fields.
+        var submit = true;
+        var labels = '<label class="error">Required</label>';
+        $(".required").each(function() {
+          if ($(this).val() == "") {
+            $(this).addClass('errorbg').next('label').addClass('error');
+            $('#checker').removeClass('checkboxerror');
+            submit = false;
+          } else {
+            $(this).removeClass('errorbg').next('label').removeClass('error');
+          }
+        });
+        if (submit == true) {
+          if ($('input:checkbox', this).is(':checked')) {} else {
+            $('#checker').addClass('checkboxerror');
+            return false;
+          }
+          return true;
+        } else {
+          return false;
+        }
+      });
+    });
+  </script>
+
+  <div id="jm_pinterest">
+    <div id="item_form">
+      <form id="signupForm" name="signupForm" method="post" action="https://e.beachmint.com/pub/rf">
+        <input type="hidden" name="_ri_" value="X0Gzc2X%3DWQpglLjHJlYQGkRzaG8TvRzbOYBHfgBDR79Tb8cze6K8izbzalfVwjpnpgHlpgneHmgJoXX0Gzc2X%3DWQpglLjHJlYQGoWmkuaUWwPEhSUWzd4Lqt2W8cze6K8izbzalf">
+        <input type="hidden" name="EMAIL_FORMAT_" value="H">
+        <ul>
+          <li>
+            <label for="email_address_" style="float:left;">Your Email &nbsp;&nbsp;</label>
+            <input type="email" name="email_address_" id="email_address_" class="required" />
+            <label></label>
+          </li>
+        
+          <li>
+            <button type="submit" class="submit" id="rsvp"><span>I'M IN! &nbsp;&nbsp; &#10095;</span>
+            </button>
+            <input type="checkbox" class="checkbox" id="agree" name="agree" />
+            <p class="terms">I agree to receive emails from BeachMint, Inc. and agree to BeachMint, Inc.'s <a href="http://www.jewelmint.com/terms-of-service" target="_blank">Terms of Service</a> and <a href="http://www.jewelmint.com/privacy-policy" target="_blank">Privacy Policy</a>
+            </p>
+            <label id="checker"></label>
+          </li>
+        </ul>
+      </form>
+    </div>
+
+  </div>
+</div>
