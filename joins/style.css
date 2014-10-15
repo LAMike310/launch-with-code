@@ -1,0 +1,238 @@
+    #main {
+      max-width: 920px;
+    }
+    #jm_pinterest {
+      width: 100%;
+      height: 595px;
+      position: relative;
+      clear: both;
+      float: left;
+      margin-bottom: 15px;
+      background-image: url('http://crumb.beachmint.com/email_images/jewelmint/promos/2014/October/luckyOptin/bg.png');
+      background-repeat: no-repeat;
+    }
+    #pinterest_info {
+      position: relative;
+      top: 3.85em;
+      left: 0;
+      clear: left;
+      float: left;
+      width: 610px;
+      height: 1178px;
+    }
+    #item_form {
+      float: left;
+      clear: right;
+      z-index: 100;
+      position: relative;
+      top: 8em;
+      width: 450px;
+      margin: 0;
+    }
+    #item_form ul {
+      list-style-type: none;
+      margin: 50px 0 0 0;
+      padding: 0;
+    }
+    
+    #item_form ul li input {
+      width: 145px;
+      height: 35px;
+      border: 1px solid #bfb2ac;
+      color: #333333;
+      display: block;
+      font-size: 24px;
+      letter-spacing: 2px;
+      line-height: 26px;
+      margin: 14px 0 0 0;
+      padding: 5px;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    #item_form button {
+      background: #000000;
+      cursor: pointer;
+      display: block;
+      margin: 5px 0 35px 0;
+      padding: 0;
+      border: 0;
+      color: #ffffff !important;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      line-height: 14px;
+      height: 50px
+    }
+    #item_form button span {
+      display: inline-block;
+      padding: 18px 35px 18px 45px;
+    }
+    #signupForm label {
+      display: block;
+    }
+    #signupForm input.checkbox {
+      width: 17px;
+      height: 17px;
+      border: 1px solid #bfb2ac;
+      color: #555;
+      display: block;
+      float: left;
+      margin: 4px 12px 0 0;
+      padding: 0;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    #signupForm ul li p.terms {
+      display: block;
+      float: left;
+      width: 230px;
+      color: #333333;
+      font-family: times, serif;
+      font-size: 16px;
+      line-height: 22px;
+      letter-spacing: 0px;
+      font-style: italic;
+      font-weight: normal;
+      vertical-align: baseline;
+      text-transform: none;
+      padding: 0;
+      margin: 0;
+    }
+    #signupForm ul li p.terms a {
+      color: #000000;
+      font-family: times, serif;
+      font-size: 16px;
+      font-style: italic;
+      font-weight: normal;
+      letter-spacing: 0px;
+      line-height: 22px;
+      text-decoration: underline;
+    }
+    #jm_about_erin {
+      position: relative;
+      display: block;
+      float: left;
+      clear: right;
+      width: 310px;
+      min-height: 545px;
+      margin: 0;
+      padding: 0;
+    }
+
+    #pinterest_info ul {
+      position: absolute;
+      top: 290px;
+      left: 40px;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    #pinterest_info ul li {
+      background: #ffffff;
+      display: block;
+      border-right: 1px solid #cecece;
+      border-left: 1px solid #cecece;
+      border-bottom: 1px solid #cecece;
+      float: left;
+      clear: both;
+      width: 528px;
+      min-height: 105px;
+      color: #363636 !important;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    #pinterest_info ul li: first-child {
+      border-top: 1px solid #cecece;
+    }
+    #pinterest_info ul li p {
+      font-size: 13px;
+      letter-spacing: 1px;
+      line-height: 20px;
+      margin: 0;
+      padding: 0;
+    }
+    #pinterest_info ul li h6 {
+      font-size: 10px;
+      line-height: 12px;
+      letter-spacing: 2px;
+      vertical-align: text-top;
+      margin: 26px 0 12px 0;
+      padding: 0;
+    }
+    #pinterest_info ul li p.win {
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 2px;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-align: center;
+      margin: 25px 0 0 0;
+      padding: 0;
+    }
+    #pinterest_info ul li.rsvp p,
+    #pinterest_info ul li.follow p,
+    #pinterest_info ul li.pin p,
+    #pinterest_info ul li h6 {
+      padding-left: 112px;
+    }
+    #pinterest_info ul li.pin p {
+      margin-bottom: 30px;
+    }
+    #pinterest_info ul li.rsvp {
+      background: url(data:image/gif;base64,R0lGODlhMgAuANUAAP////+ss/+xt//Bxv/q7P+xuP+2vf/6+v/v8f/19f/g4v/W2f+wt//L0P+ttP/Q1P+0uv/l5//y8//Gy/+8wf/b3v/5+v/Eyf/z9P/3+P+utf/HzP+vtv+1u//s7v/R1f/w8v/O0v/U2P/Kz//X2v/d4P/c3//4+f/i5P/V2f/29//JzgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOkUzMEM5QjRBNzQyMDY4MTFCRjU4RjUyNEQ1NEQ2RTAwIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkZCNENDOTUxOEFDRTExRTM5RkI1RUIzNkI5NUIwMkJBIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkZCNENDOTUwOEFDRTExRTM5RkI1RUIzNkI5NUIwMkJBIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzYgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4REE2NDFGQjIyMjA2ODExODNEMTgxNTM4MkRBQjRGQSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpFMzBDOUI0QTc0MjA2ODExQkY1OEY1MjRENTRENkUwMCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAAAAAAALAAAAAAyAC4AAAb/QAAAdIEEjsikcslsJiEXkBBQ0jiv2OxRYwJ4HA5RZkoum8/o82kB9mwCpLR8ThemAhOjqs7vCzMBEAIMfoV1DAKJhotpiYqMkGSOApGVAJOWkZiZjJuchp6ffqGifKSldKeocqqraK2uZq0IBLUJZQkEUwcECLu9QrQEt2etSg1TA0cFFQAJAQUHQg8BC0JJA9JlxgYLCxQBEQAKAQ8RFM0ADQEKAAcF0dfdE+WyjmgBA0IR1eMBDdqEPDMAYMG/KfncJdx27wy0AQMKBLj1Dpq1ZOwMTERYYIDGdgwfmYEGLoAuIQfW9RNCANpBhMseFGs4MpvGk1MQBCCIcSNCin2NaJZJSA5oAgMKyPHct/AnK6FkFt4EQEAjNF9kDOC8BvQV1CnAnBEIiAArLjNhvYqM9XQtW7WU3raNKxdu3aBu706BVZevXL9vAbMVHIuwK0eE9JpB1CGABcVkLAToMKIeZCEfAqzAwCBACAmKMWR24AsFBy2oUx/hABKAhA2dVctewmACaABBAAA7) 28px 28px no-repeat #ffffff;
+    }
+    #pinterest_info ul li.follow {
+      background: url(data:image/gif;base64,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) 28px 28px no-repeat #ffffff;
+    }
+    #pinterest_info ul li.pin {
+      background: url(data:image/gif;base64,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) 28px 28px no-repeat #ffffff;
+    }
+    #signupForm label.error {
+      float: left;
+      clear: both;
+      margin: 4px 0 0 5px;
+      padding: 0;
+      width: auto;
+      display: block;
+      color: #fb4a70;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 1px;
+      line-height: 14px;
+      text-transform: none;
+    }
+    #signupForm label.error: after {
+      content: "*Required";
+    }
+    #signupForm label.checkboxerror {
+      float: left;
+      clear: both;
+      margin: 5px 0 0 26px;
+      padding: 0;
+      width: auto;
+      display: block;
+      color: #fb4a70;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 1px;
+      line-height: 14px;
+      text-transform: none;
+    }
+    .checkboxerror: after {
+      content: "\002A Please Agree";
+    }
+    .errorbg {
+      background-color: #fffbf4;
+    }
+    .shownow {
+      color: #fb687b !important;
+    }
